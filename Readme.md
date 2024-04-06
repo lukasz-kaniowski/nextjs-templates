@@ -6,4 +6,6 @@ This is a collection of small templates for Next.js projects. Each template is a
 
 ```bash
 npx create-next-app <dir-name>
+git c -am "Initial commit for <dir-name> template"
+cd <dir-name>
 ```
