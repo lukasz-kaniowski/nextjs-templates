@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import connectMongo from "@/app/db/connection";
-import Product from "@/app/db/product.model";
+import connectMongo from "@/lib/db/connection";
+import Product from "@/lib/db/product.model";
 
 export default async function Home() {
     await connectMongo();
